@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".page1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start new game"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/ngB"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Score"
+         android:onClick="score"
+         android:textSize="20dp"
+         android:layout_marginLeft="35dp"
+         android:textStyle="bold"
+         />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER X:"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/Xwd"
+            android:textColor="@color/colorblue"
+            />
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Reset"
+            android:textSize="20dp"
+            android:id="@+id/reset"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER O: "
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/Owd"
+            android:textColor="@color/colorblue"
+            />
+
+    </LinearLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="50dp"
+       android:orientation="horizontal"
+       >
+       <TextView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:gravity="center"
+           android:background="@drawable/border"
+           android:textSize="50dp"
+           android:id="@+id/B1"
+           android:textColor="@color/colorblue"
+           />
+       <TextView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:gravity="center"
+           android:textSize="50dp"
+           android:id="@+id/B2"
+           android:background="@drawable/border"
+           android:textColor="@color/colorblue"
+           />
+       <TextView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:gravity="center"
+           android:textSize="50dp"
+           android:id="@+id/B3"
+           android:background="@drawable/border"
+           android:textColor="@color/colorblue"
+           />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B4"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B5"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B6"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B7"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B8"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/B9"
+            android:background="@drawable/border"
+            android:textColor="@color/colorblue"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#da1111"
+        android:id="@+id/TVres"
+        />
+
+
+
+</LinearLayout>
